@@ -24,6 +24,19 @@
   npm install -g --production windows-build-tools
   ```
 
+#### Linux* Users Only
+
+  *At least in Ubuntu server 16.04.3 LTS Xenial Xerus (Up² default os)
+
+  Run the following commands:
+  
+  ```
+  sudo add-apt-repository ppa:ubuntu-wine/ppa
+  sudo apt-get update
+  sudo apt-get install --no-install-recommends -y gcc-multilib g++-multilib wine1.8
+  sudo apt-get install -y icnsutils graphicsmagick
+  ```
+
 #### Compiling
 
 If you wish to compile the app, install the following also: 
