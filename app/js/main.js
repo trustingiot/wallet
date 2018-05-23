@@ -76,7 +76,7 @@ var App = (function(App, undefined) {
   App.uiIsInitialized           = false;
   App.doNodeStarted             = false;
 
-  var minWeightMagnitudeMinimum = (isTestNet ? 9 : 14);
+  var minWeightMagnitudeMinimum = 1;
   var deleteDb                  = false;
   var deleteAnyways             = false;
   var isFullScreen              = false;
